@@ -1,0 +1,103 @@
+
+/**
+ * Override CSS's
+ */
+ html{
+   height: 100%;
+ }
+ body{
+   position: relative;
+   min-height: 100%;
+   padding-bottom: 5rem ;
+ }
+ .heading{
+ 	color: #02aadd;
+ 	margin-top: 20px;
+ }
+ .pointer{
+   cursor: pointer;
+ }
+ .hidden{
+   display: none;
+ }
+ .mr-auto,.mx-auto{
+
+ 	margin-top: 12px;
+ 	margin-bottom: -10px;
+ }
+ .child-rows{
+ 	padding-left: 20px;
+ 	border-left: 1px solid #dfdfdf;
+ 	background: #FFF;
+ }
+ .child-rows a.list-group-item{
+ 	border-left: 0px!important
+ }
+ .bg-light {
+     background-color: #006EB7!important;
+ }
+ .list-group-item.active{
+ 	z-index: 2;
+ 	color: #fff;
+ 	background-color: #02aadd
+ 	border-color: #02aadd;
+ 	border-radius: 0px!important;
+ }
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.feature-img{
+  max-height: 200px
+}
+.btn-cart-nav{
+
+}
+.btn-cart-nav:hover{
+  background: inherit!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+.footer-bottom{
+  padding: 20px;
+  margin-top: 20px;
+  background: #02aadd;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.product-item{
+  background: #dcf4fc;
+}
+.carousel-indicators li{
+  position: relative;
+  -webkit-box-flex:0;
+  -ms-flex:0 1 auto;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  border-radius: 20px;
+  background-color: hsl(194,98%,44%);
+
+}
+.carousel-caption h5{
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+}
+.navbar-dark .navbar-nav .active>.nav-link ,.navbar-dark .navbar-nav.nav-link.active{
+    color: #000;
+    background: #FFF;
+    background-radius: 5px;
+}
+.navbar-dark .navbar-nav.nav-link:focus,.navbar-dark .navbar-nav .nav-link.hover{
+    color: #000;
+    background: #FFF;
+    background-radius: 5px;
+}
